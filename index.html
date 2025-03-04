@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lavishly+Yours&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lavishly+Yours&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,100..900;1,100..900&family=Lavishly+Yours&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="homePage">
+        <div id="nav">
+            <p id="pp">HealthyByte</p>
+            <div id="insideNav">
+                <nav id="navBars">
+                    <ul class="navinside">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Analysis.html">Analysis</a></li>
+                        <li><a href="recepi.html">Recipe</a></li>
+                        <li><a href="https://www.news-medical.net/condition/Diet-Nutrition">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <button id="login">Login</button>
+        </div>
+
+        
+
+        <div id="bodyContent">
+            <h2>get ready to</h2>
+            <h1>SHINE YOUR HEALTH</h1>
+            <p>Explore our website to make your health beautiful once again.</p>
+            <div id="bodyButton">
+                <button>Explore more</button>
+            </div>
+        </div>
+    </div>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Lifestyle</title>
+</head>
+<body>
+    <section id="section2">
+        <div id="left">
+            <img src="eating.jpeg" alt="">
+            <img src="new.jpeg" alt="">
+            <img src="med.jpeg" alt="">
+            <img src="nut.jpeg" alt="">
+        </div>
+        <div id="rigth">
+            <h3>Know how much nutritions contain in your food!</h3>
+            <p>Track your meals, monitor nutrients, and achieve your health goals with ease. Our nutrition app helps you make smarter food choices, stay hydrated, and maintain a balanced diet. Whether you're aiming for weight loss, muscle gain, or overall wellness, we’ve got you covered.</p>
+
+            <button>Learn more</button>
+        </div>
+    </section>
+
+
+    <section id="section4">
+        <div id="leftsection4">
+            <h1>Need Help with Healthy<br> Eating?</h1>
+            <p>Eating healthy doesn’t have to be overwhelming. It’s about making smarter choices that fuel your body while still enjoying what you eat. Focus on whole foods like fresh fruits, vegetables, lean proteins, whole grains, and healthy fats while cutting back on processed foods high in sugars and unhealthy fats. Hydration is just as important, so aim for at least 8 glasses of water daily. A balanced diet allows room for all foods in moderation—there’s no need for extreme restrictions. Planning meals in advance helps you make healthier choices and avoid unhealthy fast food temptations. Listen to your body's hunger and fullness signals, and make gradual changes that lead to long-term success. Healthy eating is not about strict dieting but creating a lifestyle that makes you feel energized and well.</p>
+            <button>Contact us</button>
+        </div>
+        <div id="rightsection4">
+            <img src="section4.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="section3">
+        <div id="section3left">
+            <img src="newss.jpeg" alt="">
+        </div>
+        <div id="section3right">
+            <h1>Find out what's new in the world of nutrition</h1>
+            <p>Nutrition is evolving, and so are the ways we approach healthy living. With growing awareness of personalized diets, whole foods, and mindful eating, staying informed is key to a healthier lifestyle. The latest trends focus on balanced nutrition, sustainable food choices, and science-backed dietary habits that support overall well-being. Whether you're looking to improve energy levels, manage weight, or enhance long-term health, understanding what you eat is the first step.</p>
+            <button>Food news</button>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HealthyByte. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            let formData = new FormData();
+            formData.append("name", document.getElementById("name").value);
+            formData.append("email", document.getElementById("email").value);
+            formData.append("message", document.getElementById("message").value);
+            
+            fetch("process.php", { method: "POST", body: formData })
+            .then(response => response.text())
+            .then(data => alert(data))
+            .catch(error => console.error("Error:", error));
+        });
+        </script>
+</body>
+</html>
